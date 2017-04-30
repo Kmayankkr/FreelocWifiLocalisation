@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context="com.example.mayank.freeloc.track_location">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5px"
+        android:gravity="center"
+        android:text="List of Tracked People"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/tracked"
+        android:layout_width="368dp"
+        android:layout_height="match_parent"
+
+        android:background="#fff"
+        android:textSize="28sp"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
